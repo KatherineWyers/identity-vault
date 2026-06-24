@@ -1,7 +1,6 @@
 # Identity Vault #
 Secure Multi-tenancy Identity Data Management API
 
-
 # Environment Variables #
 Environment variables are required to run this project. See .env.example for a 
 full list. 

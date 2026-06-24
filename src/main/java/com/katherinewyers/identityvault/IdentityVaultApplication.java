@@ -1,4 +1,4 @@
-package com.katherinewyers.identity_vault;
+package com.katherinewyers.identityvault;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
