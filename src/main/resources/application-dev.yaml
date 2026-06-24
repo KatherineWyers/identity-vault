@@ -3,6 +3,10 @@ spring:
     url: jdbc:postgresql://localhost:${DB_PORT}/${POSTGRES_DB}
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
-  server:
-    port:
-      "${SERVER_PORT}}"
+    driver-class: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+server:
+  port: ${SERVER_PORT}
