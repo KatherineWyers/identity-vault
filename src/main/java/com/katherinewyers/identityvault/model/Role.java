@@ -15,7 +15,8 @@ import java.util.Set;
 @Table(name = "roles")
 public class Role {
     @Id
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String name;
 
     @ManyToMany(mappedBy = "roles")
